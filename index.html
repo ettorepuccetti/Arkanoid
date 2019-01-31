@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WinBrick</title>
+    <style>
+    	* { padding: 0; margin: 0; } 
+    	canvas { background: #eee; position: relative; display: block; margin: 0 auto }
+        div.buttons {margin: 10px; text-align: center;}
+        div.istruction {text-align: center; visibility: hidden }
+    </style>
+</head>
+<body>
+    <embed src="assets/Sprites/background.mp3" autostart="true" loop="true" hidden="true"> 
+    <audio id="break" src="assets/Sprites/break.mp3"></audio>
+    <audio id="bounce" src="assets/Sprites/bounce.mp3"></audio>
+    <audio id="bonus" src="assets/Sprites/bonus.mp3"></audio>
+    <audio id="gun" src="assets/Sprites/gun.mp3"></audio>
+    <canvas id="myCanvas" width="600" height="400"> </canvas>
+    <div class = "istruction" id = "istructionLine">
+        <p> press Space to shoot </p>
+    </div>
+    <div class="buttons">
+        <input onclick="mode.setMenuMode()" type="button" value="-    Main Menù    -" id="menuMode"> </input>
+        <input onclick="mode.setEditorMode()" type="button" value="-    Edit     -" id="editorMode"> </input>
+        <input onclick="mode.setPlayStdMode()" type="button" value="-  Play Standard  -" id="playStdMode"> </input>
+        <input onclick="mode.setPlayMode()" type="button" value="-    Play     -" id="playMode"> </input>
+    </div>
+    <script src="assets/js/LoadSprite.js"></script>
+    <script src="assets/js/Brick.js"></script>
+    <script src="assets/js/Life.js"></script>
+    <script src="assets/js/Bonus.js"></script>
+    <script src="assets/js/Ball.js"></script>
+    <script src="assets/js/Paddle.js"></script>
+    <script src="assets/js/EventHandler.js"></script>
+    <script src="assets/js/Draw.js"></script>
+    <script src="assets/js/Editor.js"></script>
+    <script src="assets/js/Mode.js"></script>
+    <script src="assets/js/Gun.js"></script>
+    <script src="assets/js/Main.js"></script>
+
+</body>
+</html>
