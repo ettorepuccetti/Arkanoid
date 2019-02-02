@@ -35,4 +35,4 @@ Select single cell of the grid for making bricks appearing, or drag an area to s
 Select bricks again for deleting them.
 That's it, you are now ready to play the level you have just created!
 
-Try [it](http://sintetik.altervista.org) now!
+Play it [online](http://sintetik.altervista.org) now!
