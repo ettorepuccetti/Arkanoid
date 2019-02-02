@@ -34,3 +34,5 @@ Red star will give your ball extra weight for destroying bricks at first hit, wi
 Select single cell of the grid for making bricks appearing, or drag an area to select multiple cells.\
 Select bricks again for deleting them.
 That's it, you are now ready to play the level you have just created!
+
+Try [it](http://sintetik.altervista.org) now!
